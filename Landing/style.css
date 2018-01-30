@@ -1,0 +1,64 @@
+/* Fonts and colors*/
+body {
+  background: rgb(240,240,240);
+  color: rgb(20, 20, 20);
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  color: green;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: green;
+}
+a:hover {
+  text-decoration: none;
+  color: grey
+}
+/* Custom design */
+#banner {
+	background-image:url(https://images.unsplash.com/photo-1505575156881-dd15ae275636?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=beb1d1d068c68fc2bd2c25151947b3ff&dpr=1&auto=format&fit=crop&w=767&h=1023&q=60&cs=tinysrgb);
+	background-size: cover;
+	padding: 150px 0;
+	color: white;
+	text-shadow: 1px 1px 5px black;
+	text-align: center;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+.card{
+  text-align: center;
+  padding: 50px;
+  font-weight: lighter;
+}
+
+#footer a {
+color: green;
+font-size: 20px;
+
+}
+
+#footer a:hover{
+color: grey;
+
+
+}
